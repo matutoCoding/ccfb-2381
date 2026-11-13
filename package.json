@@ -1,0 +1,24 @@
+{
+  "name": "strat3d",
+  "version": "1.0.0",
+  "private": true,
+  "description": "浏览器内三维地层建模工具（钻孔数据 / 层位插值 / WebGPU 体素 / 剖面）",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "gen:data": "tsx scripts/generate-data.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@webgpu/types": "^0.1.51",
+    "pngjs": "^7.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
